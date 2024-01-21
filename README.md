@@ -1,23 +1,31 @@
-# Password manager with Encryption / Decryption capability
+# Enc-pm 
 
-This is a simple password manager script created using python. The passwords are stored inside an encrypted files. This file must be kept safe and the password for the database file should be kept somewhere safe as it's not recoverable.
+Simple password manager built using Python3. The passwords are stored inside an encrypted file. This file must be kept safe and the password for the database file should be remembered as it's necessary during decryption and is not recoverable.
 
 **Note :** This script should not be used in professional setting.
 
-# Version 0.1
+# Initial version
 
-The first alpha release of the script. 
+1. The first alpha release of the script. 
+2. Have encryption and decryption implemented.
+3. Can add or delete an entry.
 
-# Use
+# Usage
 
 Clone the repo :
 
-    $ git clone 
+    $ git clone https://github.com/YenruoY/enc-pm.git
 
 Install requirments :
 
-    $ pip install -r requirements.txt 
+    $ cd enc-pm && pip install -r requirements.txt 
 
 Run the script :
     
     $ python encpm.py
+
+**Note :** In some distributions you have to use `python3` instead of `python` and `pip3` instead of `pip`.
+
+# To implement 
+
+1. Function to edit entries 

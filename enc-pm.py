@@ -10,7 +10,6 @@ from Cryptodome.Util.Padding import pad, unpad
 from Cryptodome.Random import get_random_bytes
 
 
-
 def generate_password():
 
         password_str = []
@@ -291,6 +290,7 @@ def main():
         
             case _:
                     print(colored("\nInvalid option... Please try again..\n", "red"))
+
     
 if __name__ == "__main__" :
     main()

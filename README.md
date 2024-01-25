@@ -18,7 +18,7 @@ Clone the repo :
 
 Install requirments :
 
-    $ cd enc-pm && pip install -r requirements.txt 
+    $ cd enc-pm && python -m pip install -r requirements.txt 
 
 Run the script :
     
@@ -26,6 +26,12 @@ Run the script :
 
 **Note :** In some distributions you have to use `python3` instead of `python` and `pip3` instead of `pip`.
 
+# Requirements
+
+1. termcolor
+1. pycryptodome
+
 # To implement 
 
 1. Function to edit entries 
+
